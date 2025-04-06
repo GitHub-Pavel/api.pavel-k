@@ -1,0 +1,52 @@
+# Exclude Go binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Exclude temporary files and Go cache
+*.out
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+*.idea
+*.vscode
+*.env
+*.env.*
+
+# Exclude build and cache directories
+bin/
+build/
+dist/
+vendor/
+node_modules/
+coverage/
+.cache/
+*.coverprofile
+
+# Exclude Git files
+.git/
+.gitignore
+.gitattributes
+
+# Exclude Docker files that are not needed in the container
+docker-compose.override.yml
+.dockerignore
+
+# Exclude Makefile artifacts
+*.o
+*.a
+
+# Exclude test data
+testdata/
+tests/
+
+# Exclude documentation and IDE files
+*.md
+*.yaml
+*.yml
+*.iml
